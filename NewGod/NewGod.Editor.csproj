@@ -250,6 +250,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="LitJson">
+      <HintPath>Assets/EasyPolyMap/3rdParty/LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyPolyMapCore">
+      <HintPath>Assets/EasyPolyMap/Code/EasyPolyMapCore.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/as/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@1.0.7/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -273,10 +279,20 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EasyPolyMap\Editor\EPMDrawMapWindow.cs" />
+    <Compile Include="Assets\EasyPolyMap\Editor\EPMPolyTerrainCreatorInspector.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Editor\TBS_EditorInitializer.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Editor\TBS_PresentationWindow.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\EPMTerrainOutput\GarbageDump_data20180113154006.txt" />
+    <None Include="Assets\EasyPolyMap\3rdParty\readme.txt" />
+    <None Include="Assets\EasyPolyMap\Demos\AutumnVally\AutumnVally_data.txt" />
+    <None Include="Assets\EasyPolyMap\Demos\OtherDemoData\BasicTerrain.txt" />
+    <None Include="Assets\EasyPolyMap\Demos\OtherDemoData\BunnyIsland.txt" />
+    <None Include="Assets\EasyPolyMap\Demos\OtherDemoData\Circle_Island_Data.txt" />
+    <None Include="Assets\EasyPolyMap\Demos\SpringIsland\SpringIsland_data.txt" />
+    <None Include="Assets\EasyPolyMap\Documents\StepByStepDemoData.txt" />
     <None Include="Assets\IgnoreAssets\FreeLowPolyPack\readme.txt" />
     <None Include="Assets\IgnoreAssets\HandPaintedWoodenCrate\readme.txt" />
     <None Include="Assets\IgnoreAssets\LowPolyFantasyClouds\Shaders\CloudsShader.shader" />
@@ -284,7 +300,6 @@
     <None Include="Assets\IgnoreAssets\Sample- Low Poly Nature Assets\Documentation.txt" />
     <None Include="Assets\IgnoreAssets\Sample- Low Poly Nature Assets\Materials\_MaterialIndex.txt" />
     <None Include="Assets\IgnoreAssets\Stylized Nature Environment\ReadMe.txt" />
-    <None Include="Assets\IgnoreAssets\StylizedWoodVol01\Shaders\StandardTesselated.shader" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\FXWaterLowpoly.shader" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\WaterInclude.cginc" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\readme.txt" />
