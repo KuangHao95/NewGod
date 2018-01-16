@@ -294,7 +294,7 @@
     <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderInspector.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\EPMTerrainOutput\GarbageDump_data20180113154006.txt" />
+    <None Include="Assets\EPMTerrainOutput\GarbageDump_data20180116193644.txt" />
     <None Include="Assets\EasyPolyMap\3rdParty\readme.txt" />
     <None Include="Assets\EasyPolyMap\Demos\AutumnVally\AutumnVally_data.txt" />
     <None Include="Assets\EasyPolyMap\Demos\OtherDemoData\BasicTerrain.txt" />
