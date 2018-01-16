@@ -283,6 +283,15 @@
     <Compile Include="Assets\EasyPolyMap\Editor\EPMPolyTerrainCreatorInspector.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Editor\TBS_EditorInitializer.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Editor\TBS_PresentationWindow.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderBuilderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SABoneColliderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderBoxReducer.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderBuilderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAColliderHullReducer.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderBuilderInspector.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderEditorCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Editor\SAMeshColliderInspector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EPMTerrainOutput\GarbageDump_data20180113154006.txt" />
@@ -304,6 +313,8 @@
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\WaterInclude.cginc" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\readme.txt" />
     <None Include="Assets\IgnoreAssets\Workplace Tools\README.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -234,6 +234,16 @@
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
     <Compile Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Scripts\CheckForStandardAssets.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SABoneColliderCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SAColliderBuilderCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\Internal\SAMeshColliderCommon.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\SABoneCollider.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\SABoneColliderBuilder.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\SABoneColliderChild.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\SAMeshCollider.cs" />
+    <Compile Include="Assets\SAColliderBuilder\Scripts\SAMeshColliderBuilder.cs" />
+    <Compile Include="Assets\Scripts\CameraFollowDEMO.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovementDEMO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EPMTerrainOutput\GarbageDump_data20180113154006.txt" />
@@ -255,6 +265,8 @@
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\WaterInclude.cginc" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\readme.txt" />
     <None Include="Assets\IgnoreAssets\Workplace Tools\README.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
+    <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
