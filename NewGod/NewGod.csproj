@@ -267,6 +267,7 @@
     <None Include="Assets\IgnoreAssets\Workplace Tools\README.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
+    <None Include="Assets\Urban_Props\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
