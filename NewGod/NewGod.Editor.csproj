@@ -302,6 +302,7 @@
     <None Include="Assets\EasyPolyMap\Demos\OtherDemoData\Circle_Island_Data.txt" />
     <None Include="Assets\EasyPolyMap\Demos\SpringIsland\SpringIsland_data.txt" />
     <None Include="Assets\EasyPolyMap\Documents\StepByStepDemoData.txt" />
+    <None Include="Assets\FREE Food Pack\Shaders\Food.shader" />
     <None Include="Assets\IgnoreAssets\FreeLowPolyPack\readme.txt" />
     <None Include="Assets\IgnoreAssets\HandPaintedWoodenCrate\readme.txt" />
     <None Include="Assets\IgnoreAssets\LowPolyFantasyClouds\Shaders\CloudsShader.shader" />
