@@ -314,6 +314,7 @@
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\WaterInclude.cginc" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\readme.txt" />
     <None Include="Assets\IgnoreAssets\Workplace Tools\README.txt" />
+    <None Include="Assets\NewGod（howtoplay）.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
     <None Include="Assets\Urban_Props\readme.txt" />
