@@ -17,12 +17,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Black-Ball-Material
-    second: {fileID: 2100000, guid: fb69c479c3cec624b96dfe20d305c1b9, type: 2}
+    second: {fileID: 2100000, guid: 380ff8adb5275f941ad29f0b66948693, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: White-Ball-Material
-    second: {fileID: 2100000, guid: cff0f8a4e9c85a045be6d610d20b87b3, type: 2}
+    second: {fileID: 2100000, guid: 08381d6329fdf204fb507d00db93c92c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -94,7 +94,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
