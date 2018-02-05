@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44125012, g: 0.4986936, b: 0.61027426, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -35392,6 +35392,7 @@ GameObject:
   - component: {fileID: 1441000049}
   - component: {fileID: 1441000052}
   - component: {fileID: 1441000051}
+  - component: {fileID: 1441000053}
   m_Layer: 0
   m_Name: Torus
   m_TagString: Untagged
@@ -35483,6 +35484,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &1441000053
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1441000047}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 06f60a7f50773c846958ee78ce2d4043, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!4 &1443827614 stripped
 Transform:
   m_PrefabParentObject: {fileID: 414180, guid: ec271694f23e63e4da0cd99cfe32b104, type: 2}
