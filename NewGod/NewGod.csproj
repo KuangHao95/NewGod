@@ -225,31 +225,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="NewGod.Plugins.csproj">
+      <Project>{E9C7719D-2A72-D027-6E7B-78E62A999F9E}</Project>
+      <Name>NewGod.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\EasyPolyMap\Code\EPMMaterialAgent.cs" />
     <Compile Include="Assets\EasyPolyMap\Code\EPMObjExporter.cs" />
     <Compile Include="Assets\EasyPolyMap\Code\EPMPolyTerrainCreator.cs" />
     <Compile Include="Assets\EasyPolyMap\Code\EPMPreDefinedTools.cs" />
     <Compile Include="Assets\EasyPolyMap\Demos\EPMDemoCharacterController.cs" />
     <Compile Include="Assets\EasyPolyMap\Demos\EPMDemoScene.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\AbstractTargetFollower.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\AutoCam.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\FreeLookCam.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\HandHeldCam.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\LookatTarget.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\Cameras\Scripts\TargetFieldOfView.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\AxisTouchButton.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\ButtonHandler.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\InputAxisScrollbar.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\Joystick.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\MobileControlRig.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\MobileInput.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\PlatformSpecific\StandaloneInput.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\TiltInput.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" />
-    <Compile Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\Scripts\VirtualInput.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Low Poly Free Pack\Scripts\TBS_CameraMovement.cs" />
     <Compile Include="Assets\IgnoreAssets\TornadoBanditsStudio\Low Poly Free Pack\Water\TBS_Water.cs" />
     <Compile Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Scripts\CheckForStandardAssets.cs" />
@@ -262,6 +249,7 @@
     <Compile Include="Assets\SAColliderBuilder\Scripts\SAMeshCollider.cs" />
     <Compile Include="Assets\SAColliderBuilder\Scripts\SAMeshColliderBuilder.cs" />
     <Compile Include="Assets\Scripts\CameraFollowDEMO.cs" />
+    <Compile Include="Assets\Scripts\MouseOperating.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementDEMO.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -280,8 +268,6 @@
     <None Include="Assets\IgnoreAssets\Polygon City Free Pack - Environment and Interior\Materials\Double Sided Standard Diffuse Bump.shader" />
     <None Include="Assets\IgnoreAssets\Sample- Low Poly Nature Assets\Documentation.txt" />
     <None Include="Assets\IgnoreAssets\Sample- Low Poly Nature Assets\Materials\_MaterialIndex.txt" />
-    <None Include="Assets\IgnoreAssets\Standard Assets\Cameras\CameraGuidelines.txt" />
-    <None Include="Assets\IgnoreAssets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\IgnoreAssets\Stylized Nature Environment\ReadMe.txt" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\FXWaterLowpoly.shader" />
     <None Include="Assets\IgnoreAssets\WaterEffectLowpoly\HolyShift\Shaders\WaterInclude.cginc" />
@@ -290,6 +276,8 @@
     <None Include="Assets\NewGod（howtoplay）.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_en.txt" />
     <None Include="Assets\SAColliderBuilder\Readme_jp.txt" />
+    <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
     <None Include="Assets\Urban_Props\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
