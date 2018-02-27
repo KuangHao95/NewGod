@@ -28,7 +28,7 @@ namespace UnityStandardAssets.Cameras
 		private Quaternion m_PivotTargetRot;
 		private Quaternion m_TransformTargetRot;
 
-        protected override void Awake()
+        protected override void Start()
         {
             base.Awake();
             // Lock or unlock the cursor.
